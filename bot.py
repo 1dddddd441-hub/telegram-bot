@@ -1,7 +1,8 @@
 from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTypes
 
-TOKEN = "8799004922:AAEBX5QkVVXvh_dDfb5MJHE31VAyjc3o1zY"
+import os
+TOKEN = os.getenv("TOKEN")
 ADMIN_ID = 6695574192
 
 # Userdan admin ga
